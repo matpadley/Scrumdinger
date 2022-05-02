@@ -11,6 +11,10 @@
 		12B8689C2813E8A70070F22D /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8689B2813E8A70070F22D /* MeetingView.swift */; };
 		12B8689E2813E8A80070F22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B8689D2813E8A80070F22D /* Assets.xcassets */; };
 		12B868A12813E8A80070F22D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B868A02813E8A80070F22D /* Preview Assets.xcassets */; };
+		12CBFFC42820194A00097D93 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBFFC32820194A00097D93 /* Theme.swift */; };
+		12CBFFC628201A2600097D93 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBFFC528201A2600097D93 /* DailyScrum.swift */; };
+		12CBFFC828201AD100097D93 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBFFC728201AD100097D93 /* CardView.swift */; };
+		12CBFFCA28201F4400097D93 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBFFC928201F4400097D93 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		12B8689B2813E8A70070F22D /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		12B8689D2813E8A80070F22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B868A02813E8A80070F22D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12CBFFC32820194A00097D93 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		12CBFFC528201A2600097D93 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		12CBFFC728201AD100097D93 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		12CBFFC928201F4400097D93 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,13 @@
 		12B868982813E8A70070F22D /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				12CBFFC728201AD100097D93 /* CardView.swift */,
+				12CBFFC22820191A00097D93 /* Models */,
 				12B868992813E8A70070F22D /* ScrumdingerApp.swift */,
 				12B8689B2813E8A70070F22D /* MeetingView.swift */,
 				12B8689D2813E8A80070F22D /* Assets.xcassets */,
 				12B8689F2813E8A80070F22D /* Preview Content */,
+				12CBFFC928201F4400097D93 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -65,6 +76,15 @@
 				12B868A02813E8A80070F22D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12CBFFC22820191A00097D93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12CBFFC32820194A00097D93 /* Theme.swift */,
+				12CBFFC528201A2600097D93 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CBFFC628201A2600097D93 /* DailyScrum.swift in Sources */,
+				12CBFFCA28201F4400097D93 /* TrailingIconLabelStyle.swift in Sources */,
+				12CBFFC42820194A00097D93 /* Theme.swift in Sources */,
 				12B8689C2813E8A70070F22D /* MeetingView.swift in Sources */,
 				12B8689A2813E8A70070F22D /* ScrumdingerApp.swift in Sources */,
+				12CBFFC828201AD100097D93 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
