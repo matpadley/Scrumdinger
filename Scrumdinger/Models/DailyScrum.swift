@@ -1,9 +1,6 @@
-//
-//  DailyScrum.swift
-//  Scrumdinger
-//
-//  Created by Mathew Padley on 02/05/2022.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
 
 import Foundation
 
@@ -23,10 +20,9 @@ struct DailyScrum: Identifiable {
     }
 }
 
-
 extension DailyScrum {
     struct Attendee: Identifiable {
-        var id: UUID
+        let id: UUID
         var name: String
         
         init(id: UUID = UUID(), name: String) {
@@ -42,8 +38,15 @@ extension DailyScrum {
         var theme: Theme = .seafoam
     }
     
-    var data: Data{
+    var data: Data {
         Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+    }
+    
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
     }
 }
 
