@@ -34,6 +34,13 @@ struct ScrumdingerApp: App {
                         }
                 }
             }
+            .onDisappear {
+                ScrumStore.save(scrums: store.scrums) { result in
+                    if case .failure(let error) = result {
+                        fatalError(error.localizedDescription)
+                    }
+                }
+            }
         }
     }
 }
