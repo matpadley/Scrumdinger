@@ -26,6 +26,7 @@
 		12CFE3E0282AFD2700E1E1F9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CFE3DF282AFD2700E1E1F9 /* DetailEditView.swift */; };
 		12CFE3E2282B055400E1E1F9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CFE3E1282B055400E1E1F9 /* ThemeView.swift */; };
 		12CFE3E4282B09A900E1E1F9 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CFE3E3282B09A900E1E1F9 /* ThemePicker.swift */; };
+		12FFCE43283A5F7800793FF5 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFCE42283A5F7800793FF5 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		12CFE3DF282AFD2700E1E1F9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		12CFE3E1282B055400E1E1F9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		12CFE3E3282B09A900E1E1F9 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		12FFCE42283A5F7800793FF5 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				12CBFFC528201A2600097D93 /* DailyScrum.swift */,
 				121CD6AE2832DEDE001747F1 /* ScrumTimer.swift */,
 				127C250D28343C0D00262073 /* History.swift */,
+				12FFCE42283A5F7800793FF5 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				12CFE3E4282B09A900E1E1F9 /* ThemePicker.swift in Sources */,
 				121CD6AD2832DDD3001747F1 /* ScrumProgressViewStyle.swift in Sources */,
 				121CD6B32832E087001747F1 /* MeetingFooterView.swift in Sources */,
+				12FFCE43283A5F7800793FF5 /* ScrumStore.swift in Sources */,
 				121CD6AF2832DEDE001747F1 /* ScrumTimer.swift in Sources */,
 				12CBFFC628201A2600097D93 /* DailyScrum.swift in Sources */,
 				12CBFFCF28202A6700097D93 /* DetailView.swift in Sources */,
